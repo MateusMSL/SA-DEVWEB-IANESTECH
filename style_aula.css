@@ -1,0 +1,637 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#invisible_on_config{
+    position: absolute;
+    width: 100%;
+    height: 793px;
+    margin-top: 70px;
+    z-index: 1;
+    display: none;
+    box-shadow: inset 100px 100px 100px 1000px rgba(11, 11, 11, 0.834);
+}
+
+header{
+    height: 70px;
+    border: 0px solid #000;
+    margin-bottom: 10px;
+    background-color: #353535;
+    position: fixed;
+    z-index: 2;
+    color: #fff;
+}
+
+
+body{
+    background-color: #cecece;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo{
+    float: left;
+    padding: 10px;
+}
+
+
+
+#logo2{
+    float: left;
+    padding: 10px;
+    display: none;
+}
+
+
+
+#user{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-image: url(img/user.png);    
+    background-size: 100%;
+    border-radius: 40px;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+
+
+    
+ }
+
+ 
+
+#config_user{
+
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    position: relative;
+    /* color: #353535; */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#nav_config{
+
+    border: 5px solid rgb(255, 255, 255);
+    height: 220px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 900px;
+    background-color: #6c6b6b;
+    z-index: 2;
+    position: fixed;
+    display: none;
+}
+
+.nav_text{
+
+    padding: 15px;
+    
+
+}
+
+#sect_test{
+
+    position: fixed;
+    z-index: 3;
+    display: none;
+    float: left;
+    margin-left: 500px;
+    margin-top: 70px;
+    height: 160px;
+    background-color: #6c6b6b;
+    border: 3px solid orange;
+}
+.nav_text:hover{
+
+    cursor: pointer;
+    color: rgb(255, 202, 67);
+    text-decoration: underline;
+}
+
+.titulo_config_novonome{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+
+.button_novonome:hover{
+
+    background-color: rgb(255, 242, 184);
+    transition: 0.5s;
+}
+
+.button_novonome{
+
+    float: left;
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 202, 67);
+    border: 3px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.novo_nome{
+
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid rgb(255, 202, 67);
+    border-radius: 10px;
+
+}
+
+.article_profile{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#article_profile_mini_01{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 25px;
+    background-image: url(img/kitsune.jpg);
+    background-size: 110%;
+    background-position: center;
+    cursor: pointer;
+}
+
+#article_profile_mini_02{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 65px;
+    float: left;
+    border-radius: 25px;
+    background-size: 140%;
+    background-position: center;
+    background-image: url(img/dragon.png);
+    cursor: pointer;
+}
+
+#article_profile_mini_03{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 25px;
+    background-size: 110%;
+    background-position: center;
+    background-size: 140%;
+    background-image: url(img/phoenix.png);
+    cursor: pointer;
+}
+.article_change_password{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.article_logoff{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+
+.shadow_turnoff_01{
+    border: 0px solid;
+    
+}
+
+
+#video{
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 500px;
+    position: relative;
+}
+
+#vd{
+    height: 100%;
+    width: 100%;
+    float: left;
+    position: absolute;
+    border-radius: 9px;
+}
+
+#desc{
+    float: left;
+    border: 0px solid #000;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(155, 152, 152);
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.sobre1 {
+    
+    float: left;
+    padding: 5px;
+    border: 0px solid #000;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 150px;
+}
+
+
+
+.sobre{
+    float: left;
+    padding: 5px;
+    border: 0px solid #000;
+    margin-top: 5px;
+    text-align: center;
+    height: auto;
+}
+
+#desc > section:first-child{
+    text-align: left;
+}
+
+.sobre > a > button{
+    height: 50px;
+    width: 180px;
+    border-radius: 35px;
+    background-color: rgb(193, 193, 193);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border: 2px solid rgb(97, 97, 97);
+    font-size: 12pt;
+}
+
+#Material_da_aula{
+
+    border: 0px solid #000;
+    height: 77px;
+    width: auto;
+}
+
+#Material_da_aula > h2{
+
+    float: left;
+    margin-left: auto;
+    margin-top: 20px;
+    height: 80px;
+    
+
+}
+
+#Material_da_aula_botao{
+
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+
+}
+
+.sobre > a > button:hover{
+    background-color: rgb(253, 221, 137);
+}
+
+.sobre > a > button:active{
+    background-color: rgb(97, 78, 34);
+}
+
+
+aside{
+    float: left;
+    border: 1px solid rgb(34, 34, 34);
+    height: 100%;
+    margin-top: 98px;
+    margin-left: 1%;
+    border-radius: 7px;
+    background: #9e9d9d;
+    box-shadow:  5px -5px 10px #838282,
+                 -5px 5px 10px #ffffff;
+
+}
+
+#titulo{
+    border-bottom: 0px solid #000;
+    margin-bottom: 0px;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+    
+}
+
+#aulas{
+    border: 0px solid #000;
+    height: 384px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 213, 23);
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(251, 228, 194);
+    
+  }
+
+.aula{
+    background-color: rgb(111, 111, 111);
+    border: 1px solid #bbb;
+    height: calc(100% / 3.5);
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+#aula1{ background-color: rgb(183, 183, 183);}
+#aula2{ background-color: rgb(183, 183, 183);}
+#aula3{ background-color: rgb(183, 183, 183);}
+#aula4{ background-color: rgb(183, 183, 183);}
+#aula5{ background-color: rgb(183, 183, 183);}
+#aula6{ background-color: rgb(183, 183, 183);}
+
+
+.aula:hover{
+    background-color: #ccc !important;
+}
+
+.aula_prova{
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    height: calc(100% / 8);
+    text-align: center;
+    padding: 15px;
+    box-shadow: inset 0 0 0 0 #36614b;
+    transition: ease-out 0.1s;
+    outline: none;
+    border-radius: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+.aula_prova:hover{
+
+    cursor: pointer;
+    box-shadow: inset 0 120px 0 0 #fad367;
+
+}
+.thumbnail{
+    float: left;
+    border: 0px solid #000;
+    width: 135px;
+    /* margin-top:px; */
+}
+
+
+
+footer{
+
+    float: left;
+    height: 120px;
+    border: 1px solid #000;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: #353535;
+}
+
+.Footer_Article3:hover{ text-decoration: underline; }
+.Footer_Article2:hover{ text-decoration: underline; }
+
+.Footer_Article{
+    
+    float: left;
+    height: 100px;
+    
+
+}
+
+.Footer_Article2{
+    
+    
+    float: left;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.Footer_Article3{
+    
+    
+    float: left;
+    height: 20px;
+    cursor: pointer;
+    
+
+}
+
+.Footer_Image{
+    
+    float: right;
+    margin-left: 290px;
+   
+    height: 100px;
+
+    background-image: url(img/logo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Footer_Copyrith{
+
+    float: right;
+    height: 20px;
+    margin-top: 70px;
+
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 1061px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    #video{
+        float: left;
+        position: relative;
+        border: 0px solid #000;
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-bottom: 0;
+    }
+    
+    #desc{
+        background-color: #ccc;
+        height: 370px;
+    }
+
+    .sobre{
+        text-align: left;
+    }
+
+    
+    footer{
+        float: left;
+        margin-left: 20px;
+        height: 350px;
+        
+    }
+
+    #nav_config{
+
+        float: left;
+        margin-left: 380px;
+        width: 50%;
+    }
+
+    .article_profile{
+
+        width: 92%;
+    }
+
+    #article_profile_mini_01{
+
+        float: left;
+        width: 16%;
+        margin-left: 26px;
+    }
+
+    #article_profile_mini_02{
+
+        float: left;
+        width: 16%;
+        margin-left: 20%;
+    }
+
+    #article_profile_mini_03{
+
+        float: right;
+        width: 16%;
+        margin-right: 6px;
+        
+    }
+
+    .article_change_password{
+
+        width: 92%;
+    }
+
+    .article_logoff{
+
+        width: 92%;
+    }
+
+    #sect_test{
+
+        width: 40%;
+        float: left;
+        margin-top: 300px;
+        margin-left: 430px;
+    }
+
+    .titulo_config_novonome{
+
+        float: left;
+        margin-left: 1px;
+    }
+
+    
+    .novo_nome{
+
+        float: left;
+        margin-left: 13px;
+    }
+
+    .button_novonome{
+
+        float: left;
+        margin-left: 110px;
+    }
+
+    #invisible_on_config{
+
+ 
+       width: 140%;
+        height: 169%;
+       
+        
+    }
+
+}

@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cecece;
+}
+
+header{
+    margin: 15px auto;
+    height: auto;
+    border: 0px solid #000;
+    border-radius: 10px;
+    background-color: rgb(133, 133, 133);
+    padding: 10px;
+    text-align: center;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+}
+
+#cadastro, #login, #forgot{
+    margin: 20px auto;
+    border: 0px solid #000;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 13pt;
+    background-color: #f0f0f0;
+}
+
+.dados{
+    width: 100%;
+}
+
+#cadastro, #forgot{
+    display: none;
+}
+
+.buttons{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+p > a{
+    color: rgb(105, 178, 255);
+    cursor: pointer;
+}
+
+
+h5{
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(105, 178, 255);
+}
+
+.dados > input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    padding-left: 5px;
+}
+
+.dados > :is(#senha_cad, #conf_senha_cad, #senha_login, #senha_forgot){
+    width: 87%;
+    height: 40px;
+}
+
+.dados > p{
+    margin-top: 2px;
+    font-size: 9pt;
+    color: #f00;
+}
+
+input + button{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(161, 161, 161);
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button img{
+    width: 50%;
+    height: auto;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons > button{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    border-radius: 4px;
+    border: 0px;
+    background-color: rgb(161, 161, 161);
+}
+
+.buttons > button:hover{
+    background-color: rgb(133, 133, 133);
+}
+
+.buttons > button:active{
+    background-color: rgb(133, 133, 133);
+    color: rgb(235, 235, 235);
+}
+
+.blueclickable{
+
+    color: rgb(105, 178, 255);
+    font-style: italic;
+}
+
+.blueclickable:hover{
+
+    text-decoration: underline;
+}
+
+
+    
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 1100px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 97%;
+        
+    }
+
+    #login{
+
+        height: 570px;
+    }
+
+    #forgot{
+
+        height: 550px;
+    }
+}

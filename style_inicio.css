@@ -1,0 +1,609 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 70px;
+    border: 0px solid #000;
+    margin-bottom: 10px;
+    background-color: #353535;
+    position: fixed;
+    z-index: 2;
+    color: #fff;
+    width: 10%;
+}
+
+body{
+    background-color: #cecece;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo{
+    float: left;
+    padding: 10px;
+
+}
+
+
+
+#logo2{
+    float: left;
+    padding: 10px;
+    display: none;
+}
+
+
+
+#user{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-image: url(img/user.png);    
+    background-size: 100%;
+    border-radius: 40px;
+    background-position: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+
+
+    
+ }
+
+ 
+
+ #config_user{
+
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    position: relative;
+    /* color: #353535; */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#nav_config{
+
+    border: 5px solid rgb(255, 255, 255);
+    height: 220px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 1010px;
+    background-color: #6c6b6b;
+    z-index: 2;
+    position: fixed;
+    display: none;
+}
+
+.nav_text{
+
+    padding: 15px;
+    
+
+}
+
+#sect_test{
+
+    position: fixed;
+    z-index: 3;
+    display: none;
+    float: left;
+    margin-left: 630px;
+    margin-top: 70px;
+    height: 160px;
+    background-color: #6c6b6b;
+    border: 3px solid orange;
+}
+.nav_text:hover{
+
+    cursor: pointer;
+    color: rgb(255, 202, 67);
+    text-decoration: underline;
+}
+
+.titulo_config_novonome{
+
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+
+.button_novonome:hover{
+
+    background-color: rgb(255, 242, 184);
+    transition: 0.5s;
+}
+
+.button_novonome{
+
+    float: left;
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(255, 202, 67);
+    border: 3px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+.novo_nome{
+
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 3px solid rgb(255, 202, 67);
+    border-radius: 10px;
+
+}
+
+.article_profile{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#article_profile_mini_01{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 25px;
+    background-image: url(img/kitsune.jpg);
+    background-size: 110%;
+    background-position: center;
+    cursor: pointer;
+}
+
+#article_profile_mini_02{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 65px;
+    float: left;
+    border-radius: 25px;
+    background-size: 140%;
+    background-position: center;
+    background-image: url(img/dragon.png);
+    cursor: pointer;
+}
+
+#article_profile_mini_03{
+
+    border: 1px solid rgb(255, 202, 67);
+    height: 50px;
+    margin-top: 4px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 25px;
+    background-size: 110%;
+    background-position: center;
+    background-size: 140%;
+    background-image: url(img/phoenix.png);
+    cursor: pointer;
+}
+.article_change_password{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.article_logoff{
+
+    border: 1px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-top: 4px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+
+.shadow_turnoff_01{
+    border: 0px solid;
+    
+}
+
+
+#article_curso_01{
+    float: left;
+    height: auto;
+    width: 390px;
+    border: 2px solid rgb(44, 44, 44);
+    margin-top: 120px;
+    margin-left: 70px;
+    background-color: #ffbb00;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#article_curso_01:hover{
+    transition: 0s;
+    background-color: #ffecb7;
+    cursor: pointer;
+}
+
+#article_curso_02{
+    float: left;
+    height: auto;
+    width: 390px;
+    border: 2px solid rgb(44, 44, 44);
+    margin-top: 120px;
+    margin-left: 70px;
+    background-color: #ffbb00;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#article_curso_02:hover{
+    transition: 0s;
+    cursor: pointer;
+    background-color: #ffecb7;
+}
+
+#article_curso_03{
+    float: left;
+    height: auto;
+    width: 390px;
+    border: 2px solid rgb(44, 44, 44);
+    margin-top: 120px;
+    margin-left: 70px;
+    background-color: #ffbb00;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+#article_curso_03:hover{
+    transition: 0s;
+    cursor: pointer;
+    background-color: #ffecb7;
+}
+
+
+
+
+
+
+#course_image_01{
+
+    background-image: url(img/excel_logo.png);
+    height: 200px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: 3px solid #fff;
+    float: left;
+
+}
+
+#course_image_02{
+
+    background-image: url(img/word_excel.png);
+    height: 200px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    float: left;
+
+}
+
+#course_image_03{
+
+    background-image: url(img/sql_logo.jpg);
+    height: 200px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    float: left;
+
+
+
+}
+
+#invisible_on_config{
+
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+.indisponivel{
+
+    border: 0px solid #000;
+
+}
+
+.indisponivel:hover{
+
+    box-shadow:inset 100px 100px 100px 200px rgba(0, 0, 0, 0.555);
+
+}
+
+.s_title{
+
+    float: left;
+    margin: 0 auto;
+    margin-left: 45px;
+    background-color: #353535;
+    width: 290px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.s_state{
+
+    float: left;
+    margin: 0 auto;
+    margin-left: 45px;
+    background-color: #353535;
+    width: 290px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.s_course_time{
+
+    float: left;
+    margin: 0 auto;
+    margin-left: 45px;
+    background-color: #353535;
+    width: 290px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.s_description{
+
+    float: left;
+    margin-left: 30px;
+    background-color: #353535;
+    width: 320px;
+    height: auto;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    
+    margin-bottom: 5px;
+}
+
+footer{
+
+    float: left;
+    height: auto;
+    border: 1px solid #000;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #353535;
+}
+
+.Footer_Article3:hover{ text-decoration: underline; }
+.Footer_Article2:hover{ text-decoration: underline; }
+
+.Footer_Article{
+    
+    float: left;
+    height: 100px;
+    
+
+}
+
+.Footer_Article2{
+    
+    
+    float: left;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.Footer_Article3{
+    
+    
+    float: left;
+    height: 20px;
+    cursor: pointer;
+    
+
+}
+
+.Footer_Image{
+    
+    float: right;
+    margin-left: 290px;
+   
+    height: 100px;
+
+    background-image: url(img/logo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Footer_Copyrith{
+
+    float: right;
+    height: 20px;
+    margin-top: 70px;
+
+
+}
+
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;} 
+.col-4 {width: 33.33%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 50%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;} 
+.col-10 {width: 83.33%;} 
+.col-11 {width: 91.66%;} 
+.col-12 {width: 100%;} 
+@media only screen and (max-width: 1360px) { 
+    /* For mobile phones: */ 
+    [class*="col-"] 
+    { width: 100%; }
+     #video{ 
+        float: left; 
+        position: relative;
+        border: 0px solid #000;
+        height: 0;
+        padding-bottom: 56.25%;
+        margin-bottom: 0; 
+            }
+
+    footer{
+
+        height: 320px;
+        width: 100%;
+    }
+
+    #article_curso_01{
+
+        margin: 50px;
+        margin-top: 100px;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    #article_curso_02{
+
+        margin: 50px;
+        margin-top: 100px;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    #article_curso_03{
+
+        margin: 50px;
+        margin-top: 100px;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    #nav_config{
+
+        float: left;
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 70%;
+    }
+
+    .article_profile{
+
+        width: 92%;
+    }
+
+    #article_profile_mini_01{
+
+        float: left;
+        width: 16%;
+        margin-left: 26px;
+    }
+
+    #article_profile_mini_02{
+
+        float: left;
+        width: 16%;
+        margin-left: 20%;
+    }
+
+    #article_profile_mini_03{
+
+        float: right;
+        width: 16%;
+        margin-right: 6px;
+        
+    }
+
+    .article_change_password{
+
+        width: 92%;
+    }
+
+    .article_logoff{
+
+        width: 92%;
+    }
+
+    #sect_test{
+
+        width: 40%;
+        float: left;
+        margin-left: 100px;
+        margin-top: 350px;
+        width: 70%;
+    }
+
+    .titulo_config_novonome{
+
+        float: left;
+        margin-left: 1px;
+    }
+
+    
+    .novo_nome{
+
+        float: left;
+        margin-left: 13px;
+    }
+
+    .button_novonome{
+
+        float: left;
+        margin-left: 110px;
+    }
+
+    #invisible_on_config{ 
+       
+        height: 288%;
+        width: 458px;
+    
+    }
+    
+     }

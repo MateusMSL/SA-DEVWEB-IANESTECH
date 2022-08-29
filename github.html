@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <link rel="stylesheet" href="style_github.css">
+        <script defer src="JS/script_github.js"></script>
+
+        <link rel="icon" href="img/logo.png">
+    </head>
+
+    <article onclick="exibir_config_perfil()" id="invisible_on_config">    
+                
+    </article>
+
+    <body onload="profile_saver()">
+        <header class="col-12 header"> 
+            <section id="logo" onclick="jumpto_inicio()">
+                <img src="img/logo.png" class="test" alt="" height="50px">
+            </section>
+            
+            <section id="user" onclick="exibir_config_perfil()"> 
+                
+            </section>
+    
+            <section>
+                <h1 id="config_user"></h1>
+            </section>
+        </header>
+    
+        <font color="white">
+            <nav id="nav_config" class="col-3"> 
+                <article class="col-11 article_profile"> 
+    
+                    <section class="col-2" id="article_profile_mini_01" onclick="profile_change_01()"> </section>
+                    <section class="col-2" id="article_profile_mini_02" onclick="profile_change_02()"> </section>
+                    <section class="col-2" id="article_profile_mini_03" onclick="profile_change_03()"> </section>
+    
+                </article>
+    
+                <article class="col-11 article_change_password"> 
+                    <section> <p align="center" class="nav_text" onclick="trocar_info()"> Alterar Nome </p></section>
+                </article>
+                
+                <article class="col-11 article_logoff"> 
+                    <section> <p align="center" class="nav_text" onclick="jumpto_login()"> Fazer Log-off </p></section>
+                </article>
+    
+            </nav>
+            <article id="sect_test" class="col-3">
+                <section class="col-7 titulo_config_novonome"> <p align="center"> Digite seu Novo Nome </p></section>
+                <input class="novo_nome" type="text" name="novonome" id="novonome"> 
+                <button class="button_novonome" onclick="alterar_nome()"> Alterar Nome </button>
+            </article>
+        </font>
+    
+
+    
+
+<main class="col-12">    
+    <article id="article_mateus" class="col-12"> 
+
+        <Section onclick="Ativar_info_mateus()" id="section_mateus_image" class="col-1"></Section>
+        <Section id="section_mateus_01" class="col-2"> <h4 class="text_fixer"> Mateus Meira Santos </h4></Section>
+        <Section id="section_mateus_02" class="col-1"> <h4 class="text_fixer"> 18 Anos </h4></Section>
+        <Section id="section_mateus_03" class="col-4"> <h4 class="text_fixer"> Formação: Desenvolvimento de Sistemas - Senai CTTI </h4></Section>
+        <Section id="section_mateus_04" class="col-4"> <h4 class="text_fixer"> Preferência na área de atuação: Front-End / Back-End </h4></Section>
+        <Section id="section_mateus_05" class="col-2"> <h4 class="text_fixer"> Github: <a href="https://github.com/MateusMSL" target="_blank"> <font color="#D6B8FD"> @MateusMSL </font></a> </h4></Section>
+
+    </article>
+
+    <article id="article_gustavo" class="col-12"> 
+
+        <Section onclick="Ativar_info_gustavo()" id="section_gustavo_image" class="col-1"></Section>
+        <Section id="section_gustavo_01" class="col-2"> <h4 class="text_fixer"> Gustavo Pereira Felix </h4></Section>
+        <Section id="section_gustavo_02" class="col-1"> <h4 class="text_fixer"> 18 Anos </h4></Section>
+        <Section id="section_gustavo_03" class="col-4"> <h4 class="text_fixer"> Formação: Desenvolvimento de Sistemas - Senai CTTI </h4></Section>
+        <Section id="section_gustavo_04" class="col-4"> <h4 class="text_fixer"> Preferência na área de atuação: Back End, BA, JS </h4></Section>
+        <Section id="section_gustavo_05" class="col-2"> <h4 class="text_fixer"> Github: <a href="https://github.com/GusFelix" target="_blank"> <font color="#BBFF00"> @GusFelix </font></a> </h4></Section>
+
+    </article>
+
+    <article id="article_rafael" class="col-12"> 
+
+        <Section onclick="Ativar_info_rafael()" id="section_rafael_image" class="col-1"></Section>
+        <Section id="section_rafael_01" class="col-2"> <h4 class="text_fixer"> Rafael Alves Dos Santos </h4></Section>
+        <Section id="section_rafael_02" class="col-1"> <h4 class="text_fixer"> 18 Anos </h4></Section>
+        <Section id="section_rafael_03" class="col-4"> <h4 class="text_fixer"> Formação: Desenvolvimento de Sistemas - Senai CTTI </h4></Section>
+        <Section id="section_rafael_04" class="col-4"> <h4 class="text_fixer"> Preferência na área de atuação: Front-End </h4></Section>
+        <Section id="section_rafael_05" class="col-2"> <h4 class="text_fixer"> Github: <a href="https://github.com/RafaelAlvesss" target="_blank"> <font color="#FF00000"> @RafaelAlvesss </font></a> </h4></Section>
+
+    </article>
+
+    <article id="article_ronald" class="col-12"> 
+
+        <Section onclick="Ativar_info_ronald()" id="section_ronald_image" class="col-1"></Section>
+        <Section id="section_ronald_01" class="col-2"> <h4 class="text_fixer"> Ronald  </h4></Section>
+        <Section id="section_ronald_02" class="col-1"> <h4 class="text_fixer"> 18 Anos </h4></Section>
+        <Section id="section_ronald_03" class="col-4"> <h4 class="text_fixer"> Formação: Desenvolvimento de Sistemas - Senai CTTI </h4></Section>
+        <Section id="section_ronald_04" class="col-4"> <h4 class="text_fixer"> Preferência na área de atuação: Back-End </h4></Section>
+        <Section id="section_ronald_05" class="col-2"> <h4 class="text_fixer"> Github: <a href="https://github.com/MateusMSL" target="_blank"> <font color="#FFAF00"> @? </font></a> </h4></Section>
+    </main>
+    </article>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </body>
+    
+    </html>

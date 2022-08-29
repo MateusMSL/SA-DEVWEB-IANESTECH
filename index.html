@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Início</title>
+
+        <script type="text/javascript" >
+            function preventBack(){window.history.forward();}
+             setTimeout("preventBack()", 0);
+             window.onunload = function(){null};
+         </script>
+
+        <script defer src="JS/cadastro.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header class="col-4">
+            <img src="img/logo.png" alt="" height="100px">
+            <p id="text_header">Acesse sua conta:</p>
+        </header>
+
+        <div id="cadastro" class="col-4">
+
+            <section class="dados">
+                <label for="nome_cad">Nome:</label><br/>
+                <input type="text" id="nome_cad" nome="nome_cad" placeholder="Nome completo">
+                <p id="erro_nome"></p>
+    
+                <br/>
+    
+                <label for="mail_cad">E-mail:</label><br/>
+                <input type="text" id="mail_cad" nome="mail_cad" maxlength="70" placeholder="E-mail">
+                <p id="erro_email"></p>
+    
+                <br/>
+    
+                <label for="cpf_cad">CPF:</label><br/>
+                <input type="text" id="cpf_cad" nome="cpf_cad" maxlength="14" placeholder="CPF">
+                <p id="erro_cpf"></p>
+    
+                <br/>
+    
+                <label for="senha_cad">Senha:</label> <br/>
+                <input type="password" id="senha_cad" nome="senha_cad" placeholder="Digite a senha">
+                <button onclick="showPassword('senha_cad', 'btn_senha')">
+                    <img src="img/show.png" alt="" id="btn_senha">
+                </button>
+                <p id="erro_senha"></p>
+    
+                <br/>
+    
+                <label for="conf_senha_cad">Confirmar a senha: </label><br/>
+                <input type="password" id="conf_senha_cad" nome="conf_senha_cad" placeholder="Confirme a senha"> 
+                <button onclick="showPassword('conf_senha_cad', 'btn_senha_conf')">
+                    <img src="img/show.png" alt="" id="btn_senha_conf">
+                </button>
+                <p id="erro_conf_senha"></p>
+            </section>
+
+            <section class="buttons">
+                <button onclick="valid_cad()">Criar conta</button>
+
+                <h5 id="backlogin" onclick="showLogin()" class="blueclickable">Voltar para o login</h5>
+            </section>
+        </div>
+
+        <div id="login" class="col-4 ">
+
+            <section class="dados">
+
+                <label for="mail_login">E-mail:</label><br/>
+                <input type="text" id="mail_login" nome="mail_login" maxlength="70" placeholder="Digite seu e-mail">
+                <p id="erro_email_login"></p>
+
+                <br/>
+
+                <label for="senha_login">Senha:</label> <br/>
+                <input type="password" id="senha_login" nome="senha_login" placeholder="Digite sua senha">
+                <button onclick="showPassword('senha_login', 'btn_login')">
+
+                    <img src="img/show.png" alt="" id="btn_login">
+
+                </button>
+    
+                <p id="erro_senha_login"></p>
+
+            </section>
+
+            <section class="buttons">
+                <p >Ainda não possui conta? <a onclick="showCad()" class="blueclickable">Crie uma</a> </p>
+
+                <br/>
+    
+                <button onclick="valid_login()" id="create_account" >Fazer login</button>
+
+                <br/><br/>
+
+                <h5 class="blueclickable" onclick="showForgot()">Esqueceu a senha?</h5>
+                
+            </section>
+
+        </div>
+
+        <div id="forgot" class="col-4">
+
+            <section class="dados">
+
+                <label for="mail_forgot">E-mail:</label><br/>
+                <input type="text" id="mail_forgot" nome="mail_forgot" maxlength="70" placeholder="Digite seu e-mail de acesso">
+                <p id="erro_email_forgot"></p>
+
+                <br/>
+
+                <label for="cpf_forgot">CPF:</label> <br/>
+                <input type="text" id="cpf_forgot" nome="cpf_forgot" maxlength="14" placeholder="Digite seu CPF">
+                <p id="erro_cpf_forgot"></p>
+
+                <br/>
+
+                <label for="senha_forgot">Nova senha:</label> <br/>
+                <input type="password" id="senha_forgot" nome="senha_forgot" placeholder="Digite sua nova senha">
+                <button onclick="showPassword('senha_forgot', 'btn_forgot')">
+
+                    <img src="img/show.png" alt="" id="btn_forgot">
+
+                </button>
+
+                <p id="erro_senha_forgot"></p>
+            </section>
+
+            <section class="buttons">
+
+                <button onclick="valid_forgot()" id="create_account" >Mudar senha</button>
+
+                <h5 id="backlogin" onclick="showLogin()" class="blueclickable">Voltar para o login</h5>
+
+            </section>
+
+        </div>
+        
+    </body>
+    
+
+
+</html>

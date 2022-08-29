@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback</title>
+
+        <link rel="stylesheet" href="style_feedback.css">
+
+        <script defer src="JS/script_feedback.js"></script>
+    </head>
+
+    <body onload="profile_saver()">
+        <header class="col-12 header"> 
+            <section id="logo" onclick="jumpto_inicio()">
+                <img src="img/logo.png" class="test" alt="" height="50px">
+            </section>
+            
+            <section id="user" onclick="exibir_config_perfil()"> 
+                
+            </section>
+    
+            <section>
+                <h1 id="config_user"></h1>
+            </section>
+        </header>
+    
+        <font color="white">
+            <nav id="nav_config" class="col-3"> 
+                <article class="col-11 article_profile"> 
+    
+                    <section class="col-2" id="article_profile_mini_01" onclick="profile_change_01()"> </section>
+                    <section class="col-2" id="article_profile_mini_02" onclick="profile_change_02()"> </section>
+                    <section class="col-2" id="article_profile_mini_03" onclick="profile_change_03()"> </section>
+    
+                </article>
+    
+                <article class="col-11 article_change_password"> 
+                    <section> <p align="center" class="nav_text" onclick="trocar_info()"> Alterar Nome </p></section>
+                </article>
+                
+                <article class="col-11 article_logoff"> 
+                    <section> <p align="center" class="nav_text" onclick="jumpto_login()"> Fazer Log-off </p></section>
+                </article>
+    
+            </nav>
+            <article id="sect_test" class="col-3">
+                <section class="col-7 titulo_config_novonome"> <p align="center"> Digite seu Novo Nome </p></section>
+                <input class="novo_nome" type="text" name="novonome" id="novonome"> 
+                <button class="button_novonome" onclick="alterar_nome()"> Alterar Nome </button>
+            </article>
+    
+         
+    </font>
+
+    <article onclick="exibir_config_perfil()" id="invisible_on_config">    
+                
+    </article>
+    
+    <br/> <br/> <br/> <br/> <br/> <br/>
+
+      
+    
+            <article class="col-9" id="congrats">
+
+                <h1> <font color="#FFF"> Parabéns, você foi aprovado! </font> </h1> <br/>
+    
+                <h3> <font color="#FFF"> Muito obrigado por ter finalizado o nosso curso introdutório a banco de dados! </font> </h3> <br/>
+
+                <p> <font color="#FFF"> Nós da equipe IANES Tech esperamos que você tenha gostado dos professores, conteúdo 
+                    e do nosso website! Porém, antes de emitir o seu certificado gostaríamos de solicitar 
+                    um feedback. Afinal, assim como você buscou este curso para melhorar suas qualificações, 
+                    nós da IANES Tech também queremos melhorar cada vez mais nosso site e o nosso conteúdo 
+                    e você, caro usuário, é parte fundamental desse processo. </font> 
+                </p>
+
+            </article>
+
+          
+
+            <article id="feedbacks" class="col-9">
+                <font color="#FFF">
+                <h3> Por favor dê uma nota para: </h3>
+
+                <section class="col-4 sliders">
+                    <label for="nota1">CONTEÚDO: </label>
+
+                    <div><img src="img/regular-face.png" alt="" id="face1"></div>
+                    <div id="status1"> Regular </div>
+
+                    <input class="pointer" type="range" id="nota1" name="nota1" min="1" max="5" onchange="changeFace(this.id)"/>
+                </section>
+
+                <section class="col-4 sliders">
+                    <label for="">PROFESSOR: </label>
+
+                    <div><img src="img/regular-face.png" alt="" id="face2"></div>
+                    <div id="status2"> Regular </div>
+
+                    <input class="pointer" type="range" id="nota2" name="nota2" min="1" max="5" onchange="changeFace(this.id)"/>
+                </section>
+
+                <section class="col-4 sliders">
+                    <label for="">PLATAFORMA:</label>
+
+                    <div><img src="img/regular-face.png" alt="" id="face3"></div>
+                    <div id="status3"> Regular </div>
+
+                    <input class="pointer" type="range" id="nota3" name="nota3" min="1" max="5" onchange="changeFace(this.id)"/>
+                </section>
+            
+
+                <h3>Caso queira fazer algum elogio, crítica ou sugestão, preencha o campo abaixo:</h3>
+
+                <br>
+
+                <textarea name="espaco_feedback" id="feedback_comment" class="col-12" cols="40" rows="10" ></textarea>
+<br/> <br/>
+                <button class="Feedback_Send_Button" onclick="exibir_imprimir()"> Voltar para o curso </button>
+                
+                </font>
+            </article>
+
+        
+
+        <footer class="col-12"> 
+
+            <section class="col-1 Footer_Article"> <p> <font color="white"> Fale Conosco </br> 31 9133-7237 </br> 31 9887-5104 </br> 31 9506-0392 </br> 31 9275-4233  </font> </a></section>
+           
+                <font color="white"> 
+            <section onclick="jumpto_github()" class="col-1 Footer_Article2"> <p> Sobre Nós </p> </section>
+                </font>
+            
+            <section class="col-2 Footer_Image" onclick="jumpto_inicio()">  </section>   
+            <section class="col-3 Footer_Copyrith"> <p> <font color="white"> 2022 ~ All Copyright Reserved to IANES TECH </font></p></section>
+            
+        </footer>
+
+    </body>
+</html>

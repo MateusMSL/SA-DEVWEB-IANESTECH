@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cecece;
+}
+
+
+header{
+    /* float: left; */
+    width: 100%;
+    height: 70px;
+    border: 0px solid #000;
+    margin-bottom: 10px;
+    background-color: #353535;
+    /* position: fixed; */
+    z-index: 1;
+    color: #fff;
+}
+
+#quests{
+    margin: 0 auto;
+}
+
+#logo{
+    float: left;
+    padding: 10px;
+}
+
+
+#user{
+    float: right;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+
+#config_user{
+
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    position: relative;
+    /* color: #353535; */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#title{
+    margin: 15px auto;
+    height: auto;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffdb5c;
+}
+
+.quest{
+    /* float: left; */
+    margin: 15px auto;
+    height: auto;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+}
+
+label{
+    font-size: 12pt;
+}
+
+input{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+input[type=text]{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-size: 12pt;
+    padding: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text]:focus{
+    outline: none;
+    border-bottom: 3px solid #000;
+}
+
+button{
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 200px;
+    font-size: 12pt;
+    background-color: #f3d962;
+    border: 1px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+
+    background-color: #ffe989;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 97%;
+    }
+}

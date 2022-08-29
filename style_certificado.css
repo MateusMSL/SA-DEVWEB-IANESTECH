@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.content{
+    border: 2px solid #000;
+    margin: 10px auto;
+    height: 707px;
+    width: 1000px;
+    background-image: url(img/certificado.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    margin: 50px;
+    font-size: 16pt;
+}
+
+#nome{
+    float: left;
+    border: 0px solid #000;
+    height: 30px;
+    width: 199px;
+    position: absolute;
+    margin: 80px 0 0 50px;
+    font-size: 16pt;
+}
+
+#cpf{
+    float: right;
+    border: 0px solid #000;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin: 80px 0 0 700px;
+    font-size: 16pt;
+}
+
+#congrats{
+    margin: 300px 100px 0 100px;
+}
+
