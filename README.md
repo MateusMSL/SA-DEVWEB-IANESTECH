@@ -54,6 +54,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Tela Inicial:**
+
 *Aqui você pode selecionar os cursos, cursos incluem o material de apoio (PDF) e tambem assistir as aulas*
 
 
@@ -65,6 +66,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Configurações de Usuário**
+
 *Aqui você consegue alterar seu nome cadastrado, alem de alterar uma foto ilustrátiva que pode te ajudar a identificar qual perfil esta utilizando...*
 
 
@@ -76,6 +78,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Sessão de visualização das aulas e acesso aos materiais de apoio**
+
 *Ao clickar no curso, você será redirecionado para esta página...*
 *Aqui é possivel selecionar uma das 6 aulas ou fazer download dos materiais de consulta*
 
@@ -95,6 +98,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Parte de Baixo da página anterior**
+
 *Descendo um pouco, é possivel acessar o botão de download citado anteriormente, fazer a avaliação para ser aprovado e liberar a opção de imprimir seu diploma que atualmente se encontra visível, porem não clickável*
 
 
@@ -106,6 +110,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Aba de Questionário, para realizar a prova para aprovação no curso selecionado**
+
 *Aqui no exemplo, temos varias perguntas sobre as aulas introdutórias de bancos de dados, acertando 70% ou mais das perguntas você é aprovado e redirecionado para a proxima página, caso contrário retorna até a pagina de aulas e tem mais duas tentativas de ser aprovado!*
 
 
@@ -117,6 +122,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Feedback:**
+
 *Após ser aprovado, o usuário é redirecionado para a página de feedback, onde ele pode avaliar o site, conteudo das aulas e os professores que lecionáram, além de conseguir fazer um comentário personalizado com suas próprias palávras.*
 
 *Essa aba tambem possui um sistema de prevenção para caso o usuário retorne á pagina de aulas sem realizar um feedback, obrigando ele a dar um feedback do conteudo para que seu diploma seja liberado*
@@ -130,6 +136,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Impressão de Diploma**
+
 *Após realizar o feedback, clickando na opção de imprimir diploma, localizada na tela de assistir aulas, uma nova janela será aberta e você poderá realizar o download do seu diploma já com os dados que foram utilizados no cadastro anteriormente.*
 
 
@@ -141,6 +148,7 @@ Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Fale Conosco**
+
 *Por fim, a aba dos desenvolvedores do site com os principais dados dos mesmos*
 
 
