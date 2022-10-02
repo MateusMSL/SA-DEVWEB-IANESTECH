@@ -4,6 +4,10 @@
 
 Link de Acesso para o site: *https://mateusmsl.github.io/SA-DEVWEB-IANESTECH/*
 
+*Olá, Essa foi uma SA desenvolvida por mim e meu grupo do trabalho, nela criamos um site com o intuito de exibição de alguns mini-cursos online, o site desenvolvido possui login, alteração de foto, video aulas em video, documentação em pdf para consulta, avaliação e até feedback!*
+
+*Eu operei majoritariamente como FrontEnd do desenvolvimento, mas tambem contribui em algumas sessões do back end e da manipulação dos dados com LocalStorage!*
+
 •• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••●•• ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ••
 
 **Login:**
